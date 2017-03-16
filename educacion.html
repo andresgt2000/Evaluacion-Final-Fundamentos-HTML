@@ -13,19 +13,98 @@
       <img src="media/image/logo_agt.svg" alt="Logo AGT">
     </header>
     <h1>Hoja de Vida</h1>
-    <h2>Andrés González Tenorio</h2>
+    <h2>Andrés González</h2>
     <h3>29 de Septiembre de 19##</h3>
-    <h3>El Carmen, San José, Costa Rica</h3>
+    <h3>San José, Costa Rica</h3>
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="educacion.html">Eeducación</a></li>
+        <li><a href="educacion.html">Educación</a></li>
         <li><a href="experiencia.html">Experiencia</a></li>
       </ul>
     </nav>
+    <h2>Educación</h2>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Certificado</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culmino?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2011</td>
+          <td>Java Avanzado J2EE</td>
+          <td>Centro de formación en Tecnologías de Información</td>
+          <td>Santa Marta – San Pedro de Montes Oca</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>Red Hat Linux Administrator</td>
+          <td>Universidad Latinoamericana de Ciencia y Tecnología </td>
+          <td>San José, Barrio Tournon</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2002</td>
+          <td>Ingeniería de Sistemas</td>
+          <td>Universidad Católica de Costa Rica Anselmo Llorente y Lafuente</td>
+          <td>San José, Moravia</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+
+    <form action="#" method="post" id="frmAddStudy">
+      <fieldset>
+        <legend>Agregar Estudios</legend>
+          <label for="slctYear">Año:</label>
+            <select class="" name="slctYear">
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+              <option>2009</option>
+              <option>2008</option>
+              <option>2007</option>
+              <option>2006</option>
+              <option>2005</option>
+              <option>2003</option>
+              <option>2002</option>
+              <option>2001</option>
+              <option>2000</option>
+            </select>
+        <br><br>
+
+        <label for="txtCertificate">Certificación:</label>
+          <input type="text" name="txtCertificate" value="" placeholder="Titulo del certificado">
+        <br><br>
+
+        <label for="txtInstitute">Institución:</label>
+          <input type="text" name="txtInstitute" value="" placeholder="Nombre de la institución educativa">
+        <br><br>
+
+        <label for="rdFinish">¿Culmino?</label>
+          <input type="radio" name="rdFinish" value="Si" checked> Si
+          <input type="radio" name="rdFinish" value="No"> No
+          <br><br>
+          <button type="button" name="button" form="frmAddStudy">Enviar</button>
+      </fieldset>
+    </form>
+    <br>
     <footer>
       Tel. +506 2229-#### |
-      <a href="mailto:andresgt2000@gmail.com">andresgt2000 en  gmail punto com</a> |
+      <a href="mailto:andresgt2000@gmail.com">micorreo</a> |
       <a href="https://www.linkedin.com/in/andr%C3%A9s-gonz%C3%A1lez-tenorio-35859315/" target="_blanks">Linkedin</a>
     </footer>
   </body>
